@@ -1,0 +1,81 @@
+# Ukrainian Morphology Lexicon
+# Format: WORD  CATEGORY  LEMMA  TAGS
+# ============================================================
+
+# ---- NOUNS (Іменники) - Feminine, 1st declension (-а ending) ----
+# Used in: Case 1 (Genitive Singular) — hard stem
+держава  NOUN  держава  FEM;NOM;SG
+людина   NOUN  людина   FEM;NOM;SG
+хвилина  NOUN  хвилина  FEM;NOM;SG
+справа   NOUN  справа   FEM;NOM;SG
+садиба   NOUN  садиба   FEM;NOM;SG
+влада    NOUN  влада    FEM;NOM;SG
+
+# Used in: Case 1 (Genitive Singular) — soft stem (-я ending)
+криниця  NOUN  криниця  FEM;NOM;SG
+лікарня  NOUN  лікарня  FEM;NOM;SG
+пустеля  NOUN  пустеля  FEM;NOM;SG
+знаряддя NOUN  знаряддя FEM;NOM;SG
+праця    NOUN  праця    FEM;NOM;SG
+пекерня  NOUN  пекерня  FEM;NOM;SG
+
+# Used in: Rule S (Substitution г→з, Dative) — -га ending
+перемога NOUN  перемога FEM;NOM;SG
+наснага  NOUN  наснага  FEM;NOM;SG
+звага    NOUN  звага    FEM;NOM;SG
+розвага  NOUN  розвага  FEM;NOM;SG
+вимога   NOUN  вимога   FEM;NOM;SG
+знемога  NOUN  знемога  FEM;NOM;SG
+
+# ---- ADJECTIVES (Прикметники) - Masculine Nominative ----
+# Hard stem (-ий → -а)
+незалежний   ADJ  незалежний   MASC;NOM;SG
+відважний    ADJ  відважний    MASC;NOM;SG
+загадковий   ADJ  загадковий   MASC;NOM;SG
+оксамитовий  ADJ  оксамитовий  MASC;NOM;SG
+бурштиновий  ADJ  бурштиновий  MASC;NOM;SG
+зухвалий     ADJ  зухвалий     MASC;NOM;SG
+
+# Soft stem (-ій → -я)
+майбутній    ADJ  майбутній    MASC;NOM;SG;SOFT
+сусідній     ADJ  сусідній     MASC;NOM;SG;SOFT
+справжній    ADJ  справжній    MASC;NOM;SG;SOFT
+безкрайній   ADJ  безкрайній   MASC;NOM;SG;SOFT
+всесвітній   ADJ  всесвітній   MASC;NOM;SG;SOFT
+довколишній  ADJ  довколишній  MASC;NOM;SG;SOFT
+
+# ---- VERBS (Дієслова) ----
+# -ати/-яти class (1sg: -ти → -ю)
+відчувати    VERB  відчувати    INF;IMPFV
+перемагати   VERB  перемагати   INF;IMPFV
+зупиняти     VERB  зупиняти     INF;IMPFV
+кохати       VERB  кохати       INF;IMPFV
+мріяти       VERB  мріяти       INF;IMPFV
+надихати     VERB  надихати     INF;IMPFV
+
+# -ити class (1sg: -ити → -ю)
+цінити       VERB  цінити       INF;IMPFV
+хвалити      VERB  хвалити      INF;IMPFV
+молити       VERB  молити       INF;IMPFV
+
+# Reflexive base forms (Rule I: -ти → -тися)
+навчати      VERB  навчати      INF;IMPFV;REFL_BASE
+намагати     VERB  намагати     INF;IMPFV;REFL_BASE
+піклувати    VERB  піклувати    INF;IMPFV;REFL_BASE
+
+# Deletion examples (Rule D: -ти → ε)
+співати      VERB  співати      INF;IMPFV
+обіймати     VERB  обіймати     INF;IMPFV
+допомагати   VERB  допомагати   INF;IMPFV
+захищати     VERB  захищати     INF;IMPFV
+
+# с→ш alternation — Complex (1sg: -сити → -шу)
+голосити     VERB  голосити     INF;IMPFV;ALT_S_SH
+виносити     VERB  виносити     INF;IMPFV;ALT_S_SH
+заносити     VERB  заносити     INF;IMPFV;ALT_S_SH
+
+# б→бл alternation — Complex (1sg: -бити → -блю)
+загубити     VERB  загубити     INF;PFVA;ALT_B_BL
+ослабити     VERB  ослабити     INF;PFVA;ALT_B_BL
+зрубити      VERB  зрубити      INF;PFVA;ALT_B_BL
+доробити     VERB  доробити     INF;PFVA;ALT_B_BL
